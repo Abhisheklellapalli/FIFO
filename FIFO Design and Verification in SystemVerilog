@@ -1,0 +1,20 @@
+This project implements a synchronous FIFO (First-In-First-Out) memory buffer in SystemVerilog. The FIFO supports parameterizable data width and depth, with full and empty flags to indicate its status.
+
+A complete testbench environment is included, featuring:
+Interface-based signal connection.
+Transaction class for randomized read/write operations.
+Generator and driver classes to drive stimulus to the FIFO.
+Waveform generation (.vcd) for simulation analysis.
+The design ensures proper synchronous read/write operations, prevents overflow and underflow, and demonstrates reliable FIFO behavior under random conditions.
+
+Key Features:
+
+Parameterizable data width and FIFO depth.
+Synchronous read and write operations.
+full and empty status flags.
+Randomized transaction verification.
+Waveform generation for debugging.
+
+Simulation:
+
+The project can be simulated using ModelSim, QuestaSim, or any SystemVerilog-compatible simulator.
